@@ -1,0 +1,48 @@
+<h1 class="content-center header">Learn about the tools we use</h1>
+
+<section class="section">
+  <h4>NPM - Node Package Manager</h4>
+  <p class="readable-text-size">
+    NPM is a tool that comes when installing Node.js. It is an open sourced
+    library, full of packages that can help you create the project you want to.
+    <br />
+    YARN is similar to NPM, but does not come preinstalled with Node.js
+  </p>
+  <p>Example: npm i express</p>
+  <br />
+
+  <h4>Express</h4>
+  <p class="readable-text-size">
+    Express lets you set up a server for your node.js project. It's super fast and easy to learn. 
+    It's installed with npm
+  </p>
+  <p>Example:</p>
+  <pre class="pre">
+app.js
+
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.listen(port, ()=>{
+    console.log("Server is running on port", port)
+});
+</pre>
+<p>This code snippet is all that is required to run a server, after installing express</p>
+  <br />
+
+  <h4>Nodemon</h4>
+  <p class="readable-text-size">
+      Nodemon is a wrapper for node. It watches for changes in the files, and restart the server there is changes. This way you do not have to manually restart the server everytime, there is a change. 
+      It is great for development of Node.js projects.
+      You can make nodemon watch for changes in pretty much any type of file, by specifying this in nodemon.json file
+  </p>
+  <pre class="pre">
+nodemon.json
+
+  {
+    "ext": "html,css,js,json"
+  }
+</pre>
+  
+</section>

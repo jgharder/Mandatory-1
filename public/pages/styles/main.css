@@ -1,0 +1,79 @@
+.active {
+  font-style: bold;
+  background-color: darkslategray;
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none !important;
+  height: 100%;
+  padding-top: 1rem !important;
+}
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 3.5rem;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+body::after {
+  display: block;
+  height: 20px;
+}
+
+.home {
+  font-weight: bold;
+  color: rgb(172, 169, 169) !important;
+}
+
+.header {
+  padding: 4rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0.5rem;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  color: darkslategray !important;
+}
+
+.nodejs {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin-top: 4rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  padding-bottom: 6rem;
+}
+
+.readable-text-size {
+  font-size: large;
+}
+img.ls-img {
+  display: inline;
+  width: 50%;
+}
+
+.pre{
+  font-size: 15px;
+  border: 2px solid grey;
+  width: fit-content;
+  border-left: 12px solid green;
+  border-radius: 5px;
+  padding: 14px;
+}
